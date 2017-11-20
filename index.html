@@ -74,43 +74,32 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#使用Hexo在win10下搭建博客</p>
-<blockquote>
+        <h1 id="使用Hexo在win10下搭建博客"><a href="#使用Hexo在win10下搭建博客" class="headerlink" title="使用Hexo在win10下搭建博客"></a>使用Hexo在win10下搭建博客</h1><blockquote>
 <p><a href="#1">文章目录</a> <br><br><a href="#1">1. 环境配置</a> <br><br><a href="#2">2. 下载hexo</a> <br><br><a href="#3">3. 部署Hexo</a></p>
 </blockquote>
 <hr>
-<p>#<span id="1">环境配置</span></p>
-<p>###1. 安装nodejs</p>
-<p>###<a href="https://nodejs.org/en/" target="_blank" rel="noopener">官网</a>下载后安装</p>
-<p>###2. 安装git</p>
-<p>###<a href="https://git-scm.com/download/" target="_blank" rel="noopener">官网</a>下载后安装</p>
-<hr>
-<p>#<span id="2">下载hexo</span></p>
-<p>###打开git bash输入<br>    npm install -g hexo</p>
-<hr>
-<p>#<span id="3">部署Hexo</span></p>
-<p>###在电脑中创建一个名字为”Hexo”的文件夹，然后在此文件夹中右键打开git bash<br>    hexo init</p>
-<hr>
-<p>#<span id="4">安装依赖包</span><br>    npm install</p>
-<p>###hexo随后会自动生成目标文件夹简历网站所需要的所有文件</p>
-<p>###生成静态页面之public目录（静态博客的位置）<br>    hexo generate</p>
-<p>###开启预览访问端口（localhost:4000)<br>    hexo server</p>
-<hr>
-<p>#<span id="5">部署到github</span></p>
-<p>###命令<br>    hexo d</p>
-<p>###编辑\hexo下的_config.yml,修改Deployment部分</p>
-<pre><code># Deployment
+<h1 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a><span id="1">环境配置</span></h1><h3 id="1-安装nodejs"><a href="#1-安装nodejs" class="headerlink" title="1. 安装nodejs"></a>1. 安装nodejs</h3><h3 id="官网下载后安装"><a href="#官网下载后安装" class="headerlink" title="官网下载后安装"></a><a href="https://nodejs.org/en/" target="_blank" rel="noopener">官网</a>下载后安装</h3><h3 id="2-安装git"><a href="#2-安装git" class="headerlink" title="2. 安装git"></a>2. 安装git</h3><h3 id="官网下载后安装-1"><a href="#官网下载后安装-1" class="headerlink" title="官网下载后安装"></a><a href="https://git-scm.com/download/" target="_blank" rel="noopener">官网</a>下载后安装</h3><hr>
+<h1 id="下载hexo"><a href="#下载hexo" class="headerlink" title="下载hexo"></a><span id="2">下载hexo</span></h1><h3 id="打开git-bash输入"><a href="#打开git-bash输入" class="headerlink" title="打开git bash输入"></a>打开git bash输入</h3><pre><code>npm install -g hexo
+</code></pre><hr>
+<h1 id="部署Hexo"><a href="#部署Hexo" class="headerlink" title="部署Hexo"></a><span id="3">部署Hexo</span></h1><h3 id="在电脑中创建一个名字为”Hexo”的文件夹，然后在此文件夹中右键打开git-bash"><a href="#在电脑中创建一个名字为”Hexo”的文件夹，然后在此文件夹中右键打开git-bash" class="headerlink" title="在电脑中创建一个名字为”Hexo”的文件夹，然后在此文件夹中右键打开git bash"></a>在电脑中创建一个名字为”Hexo”的文件夹，然后在此文件夹中右键打开git bash</h3><pre><code>hexo init
+</code></pre><hr>
+<h1 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a><span id="4">安装依赖包</span></h1><pre><code>npm install
+</code></pre><h3 id="hexo随后会自动生成目标文件夹简历网站所需要的所有文件"><a href="#hexo随后会自动生成目标文件夹简历网站所需要的所有文件" class="headerlink" title="hexo随后会自动生成目标文件夹简历网站所需要的所有文件"></a>hexo随后会自动生成目标文件夹简历网站所需要的所有文件</h3><h3 id="生成静态页面之public目录（静态博客的位置）"><a href="#生成静态页面之public目录（静态博客的位置）" class="headerlink" title="生成静态页面之public目录（静态博客的位置）"></a>生成静态页面之public目录（静态博客的位置）</h3><pre><code>hexo generate
+</code></pre><h3 id="开启预览访问端口（localhost-4000"><a href="#开启预览访问端口（localhost-4000" class="headerlink" title="开启预览访问端口（localhost:4000)"></a>开启预览访问端口（localhost:4000)</h3><pre><code>hexo server
+</code></pre><hr>
+<h1 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a><span id="5">部署到github</span></h1><h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><pre><code>hexo d
+</code></pre><h3 id="编辑-hexo下的-config-yml-修改Deployment部分"><a href="#编辑-hexo下的-config-yml-修改Deployment部分" class="headerlink" title="编辑\hexo下的_config.yml,修改Deployment部分"></a>编辑\hexo下的_config.yml,修改Deployment部分</h3><pre><code># Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
       type: git
       repository: https://github.com/username/username.github.io.git
       branch: master
-</code></pre><p>###执行命令<br>    hexo d</p>
-
+</code></pre><h3 id="执行命令"><a href="#执行命令" class="headerlink" title="执行命令"></a>执行命令</h3><pre><code>hexo d
+</code></pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/11/20/使用Hexo在win10下搭建博客/" data-id="cja7uidxn0001kk7kexic99ny" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/11/20/使用Hexo在win10下搭建博客/" data-id="cja7uonjh0000787kr0itms6g" class="article-share-link">Share</a>
       
       
     </footer>
